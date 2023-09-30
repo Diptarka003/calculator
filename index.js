@@ -31,6 +31,11 @@ document.addEventListener("keydown", function(event){
         {
            inpt.value=eval(str);
         }
+        else if(event.key=="Backspace")
+        {
+            str=str.slice(0,(str.length-1));
+            inpt.value=str;
+        }
         else{
            str=str+event.key;
            inpt.value=str;
