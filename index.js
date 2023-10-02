@@ -14,6 +14,11 @@ for(var i=0;i<buttn.length;i++)
          {
             inpt.value=eval(str);
          }
+         else if(this.innerHTML=="DE")
+         {
+            str=str.slice(0,(str.length-1));
+            inpt.value=str;
+         }
          else{
             str=str+this.innerHTML;
             inpt.value=str;
