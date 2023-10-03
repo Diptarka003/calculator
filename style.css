@@ -56,4 +56,5 @@ button{
 }
 #operator{
     background-color: #5a5858;
+    box-shadow: none;
 }
