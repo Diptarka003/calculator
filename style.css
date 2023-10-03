@@ -54,3 +54,6 @@ button{
     display: flex;
     gap: 10px;
 }
+#operator{
+    background-color: #5a5858;
+}
